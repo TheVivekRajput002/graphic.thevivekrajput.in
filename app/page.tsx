@@ -1,10 +1,10 @@
-import Image from "next/image";
-import CurveBox from "@/components/ui/CurveBox";
+import HeroSection from "@/components/home/HeroSection";
 
 export default function Home() {
   return (
-<div>
-  <CurveBox text="Social Media Designs" />
+<div className="h-1000">
+ 
+  <HeroSection /> 
 </div>
   );
 }

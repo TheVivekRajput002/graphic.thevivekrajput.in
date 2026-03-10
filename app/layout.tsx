@@ -25,9 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-[var(--color-bg)] ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`bg-hero-section ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+          <div className="flex flex-col justify-center items-center mt-16">
+            <div className="w-[500px] rounded-2xl bg-[var(--color-bg-body)] p-3">
+              {children}
+            </div>
+        </div>
+
       </body>
     </html>
   );
