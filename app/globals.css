@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: light-dark(hsl(195 8% 8%), hsl(195 8% 8%));
+}
